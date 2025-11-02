@@ -1,0 +1,22 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/cmake/arm-none-eabi-gcc.cmake"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include/HAL",
+        "${workspaceFolder}/include/Components",
+        "${workspaceFolder}/include/DIL",
+        "${workspaceFolder}/include/Controller"
+    ],
+    "C_Cpp.default.defines": [
+        "STM32F407xx",
+        "USE_HAL_DRIVER"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/arm-none-eabi-gcc",
+    "C_Cpp.default.intelliSenseMode": "gcc-arm"
+}
