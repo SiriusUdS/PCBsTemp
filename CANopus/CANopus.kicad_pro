@@ -405,6 +405,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -613,6 +614,22 @@
     [
       "dca285e3-1f01-49ba-8aea-086d886ed352",
       "Root"
+    ],
+    [
+      "6241f3be-b688-414f-b6ea-3b2705385d94",
+      "ECU_Analog"
+    ],
+    [
+      "e7693357-3287-4d1a-8378-a8dac70eea4c",
+      "ECU_Power"
+    ],
+    [
+      "b9f82ad5-c59f-4c28-b16b-634ee697c9a9",
+      "ECU_Communication"
+    ],
+    [
+      "a82aee17-8a68-4628-befd-8daa103ff35c",
+      "ECU_Decoupling"
     ]
   ],
   "text_variables": {}
