@@ -9828,6 +9828,16 @@
 		)
 		(uuid "147e4a78-b0f8-4a66-9978-2cfdd0441706")
 	)
+	(text "STM à changer. trop de pins dans pas gros"
+		(exclude_from_sim no)
+		(at 264.922 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "324708c1-b0fe-4567-8172-5ed040b56755")
+	)
 	(text "pk res 0 au lieu jumper ?"
 		(exclude_from_sim no)
 		(at 529.59 140.335 0)
@@ -10685,6 +10695,16 @@
 			(type default)
 		)
 		(uuid "57ea4ac3-ce8e-4785-ad9b-c16ab4a442fc")
+	)
+	(wire
+		(pts
+			(xy 314.96 105.41) (xy 341.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0660fd-5fb9-430a-8279-0c1fe8be479b")
 	)
 	(wire
 		(pts
@@ -11608,6 +11628,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 102.87) (xy 314.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4a9a94-49f8-46f4-9ced-d62a23f2b79f")
+	)
+	(wire
+		(pts
 			(xy 499.11 325.12) (xy 501.65 325.12)
 		)
 		(stroke
@@ -11916,6 +11946,16 @@
 		)
 		(uuid "6df0623e-cc19-4fa0-9add-0927e6bb4f84")
 	)
+	(label "Pressure Sensor 1A"
+		(at 341.63 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9f1067-b4bf-4f8b-a4b7-93de80be6b32")
+	)
 	(label "LSE1"
 		(at 154.94 153.67 0)
 		(effects
@@ -12075,6 +12115,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2b64e0a-4252-4c7d-abda-efb16fbb1b6c")
+	)
+	(label "Pressure Sensor 1B"
+		(at 341.63 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e32737f8-3ae9-4a7e-920e-26714e041287")
 	)
 	(label "DAT1_SD1"
 		(at 499.11 320.04 180)
